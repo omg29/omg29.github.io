@@ -52,8 +52,14 @@ header {
 
 header h1 {
     margin: 0;
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 300;
+    text-decoration: none;
+    color: #e7e7e7;
+}
+
+header a {
+    text-decoration: none;
 }
 
 nav {
@@ -69,6 +75,7 @@ nav a {
     transition: color 0.2s ease;
     text-decoration: none;
     color: inherit;
+    z-index: 999;
 }
 
 nav a:hover {
@@ -83,7 +90,8 @@ nav a:hover {
     border: none;
     font-size: 1rem;
     font-weight: 500;
-    transition: background-color 0.2s ease;   
+    transition: background-color 0.2s ease;
+    z-index: 999;   
 }
 
 .btn-signin:hover {
@@ -150,7 +158,7 @@ main {
     font-size: 1.2rem;
     letter-spacing: 0.05em;
     max-width: 35rem;
-    color: gray;
+    color: #e7e7e7;
 }
 
 .buttons {
@@ -161,7 +169,8 @@ main {
 
 .btn-sign-in {
     text-decoration: none;
-    border: 1px solid #2a2a2a;
+    border: 1px solid #0047ab;
+    color: white;
     padding: 0.7rem 1.2rem;
     border-radius: 50px;
     font-size: 1.2rem;
@@ -188,4 +197,20 @@ main {
 
 .btn-courses:hover {
     background-color: gray;
+}
+
+.nebula-3d {
+    position: absolute;
+    top: 0;
+    right: -25%;
+    z-index: 1;
+}
+
+.explore-courses {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
 }

@@ -1,0 +1,35 @@
+main {
+    justify-content: left;
+    align-items: center;
+    text-align: center;
+}
+
+main h1 {
+    font-size: 2rem;
+}
+
+.all-courses {
+    margin-top: 5%;
+    justify-content: left;
+    width: 100%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.python-courses-container {
+    display: flex;
+    padding: 10px;
+    width: 100%;
+    height: 200px;
+    background-color: inherit;
+}
+
+.course-box {
+    width: 15%;
+    height: 300px;
+    background-color: gray;
+}
+
+.course-box-header {
+    margin-top: 50px;
+}
