@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Axari Code</title>
         <link rel="stylesheet" href="css/style.css">
+        <script src="js/navbar.js"></script>
     </head>
     <body>
         <img class="image-gradient" src="assets/gradient.png" alt="gradient">
@@ -13,11 +14,11 @@
         <div class="container">
             <header>
                 <a href="index.html"><h1 class="logo">Axari Code</h1></a>
-                <nav>
+                <div class="hamburger" id="hamburger">&#9776;</div>
+                <nav id="nav-menu" class="nav-menu">
                     <a href="courses.html">Courses</a>
                     <a href="#">About Us</a>
                     <a href="#">Donate</a>
-                    <a href="#"></a>
                 </nav>
 
                 <button class="btn-signin">SIGN IN</button>
@@ -43,30 +44,6 @@
                 </div>
                 
                 <spline-viewer class="nebula-3d" url="https://prod.spline.design/khrXx2ZCJGDv1zPf/scene.splinecode"></spline-viewer>
-
-                <div class="explore-courses">
-                    <!--
-                    <div class="course-categories">
-                        <h2>Empower your future with Axari’s free coding courses</h2>
-                        <div class="category-card">
-                            <h3>Beginner Programming</h3>
-                            <p>Start learning with Python, HTML, and basic coding concepts.</p>
-                        </div>
-                        <div class="category-card">
-                            <h3>Web Development</h3>
-                            <p>Build modern websites using HTML, CSS, and JavaScript.</p>
-                        </div>
-                        <div class="category-card">
-                            <h3>Game Development</h3>
-                            <p>Create your own games and learn interactive programming.</p>
-                        </div>
-                        <div class="category-card">
-                            <h3>Tech Career Prep</h3>
-                            <p>Develop real-world coding skills for future opportunities.</p>
-                        </div>
-                    </div>
-                -->
-                </div>
             </main>
         </div>
         <script type="module" src="https://unpkg.com/@splinetool/viewer@1.10.12/build/spline-viewer.js"></script>
